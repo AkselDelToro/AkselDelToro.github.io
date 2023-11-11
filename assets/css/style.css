@@ -1035,13 +1035,14 @@ main {
 
 .project-img {
     position: relative;
-    width: 100%;
-    height: 200px;
-    border-radius: 16px;
-    overflow: hidden;
+    height: 100%;
+    width: 80%;
+    overflow: visible;
     margin-bottom: 15px;
 }
-
+.img-radius {
+    border-radius: 16px;
+}
 
 .project-img::before {
     content: "";
